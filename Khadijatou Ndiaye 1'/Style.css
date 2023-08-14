@@ -1,0 +1,257 @@
+.conteneur {
+    border: black solid;
+    height: 100%;
+    width: 30vw;
+    margin:auto;
+}
+
+.conteneur>div:nth-child(1) {
+    border: solid red;
+    height: 20vh;
+    margin: 1%;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1) 
+{
+   
+    height: 42%;
+    margin: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) 
+{
+    border: solid rgb(224, 139, 139);
+    height: 80%;
+    margin: 0.5%;
+    width: 7%;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) 
+{
+    border: solid rgb(224, 139, 139);
+    height: 80%;
+    margin: 0.5%;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)
+ {
+    border: solid rgb(224, 139, 139);
+    height: 65%;
+    margin: 1.5%;
+    width: 27%;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2) 
+{
+    border: solid rgb(224, 139, 139);
+    height: 65%;
+    margin: 1.5%;
+    width: 27%;
+}
+
+.conteneur>div:nth-child(1)>div:nth-child(1) >div:nth-child(2) >div:nth-child(3) 
+{
+    border: solid rgb(224, 139, 139);
+    height: 65%;
+    margin: 1.5%;
+    width: 27%;
+}
+.conteneur>div:nth-child(1)>div:nth-child(2) 
+{
+    border: solid rgb(224, 139, 139);
+    height: 42%;
+    margin: 1.2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteneur > div:nth-child(2) 
+{
+    border: solid green;
+    height: 70vh;
+    margin: 1%;
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(1)  
+{
+    border: solid rgb(216, 175, 11);
+    height: 15vh;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteneur > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) 
+{
+    border: solid rgb(216, 175, 11);
+    height: 13vh;
+    margin: 0.8%;
+    width: 30%;
+}
+.conteneur > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) 
+{
+    border: solid rgb(216, 175, 11);
+    height: 13vh;
+    margin: 0.8%;
+    width: 70%;
+}
+
+.conteneur > div:nth-child(2) > div:nth-child(2)  
+{
+    border: solid rgb(161, 30, 30);
+    height: 34vh;
+    margin: 1%;
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)  
+{
+    height: 15vh;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)  > div:nth-child(1)
+{
+    border: solid rgb(222, 73, 155);
+    height: 13vh;
+    margin: 1%;
+    width:48%;
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)  > div:nth-child(2)
+{
+    border: solid rgb(222, 73, 155);
+    height: 13vh;
+    margin: 1%;
+    width: 48%;
+}
+
+
+
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)  
+{
+    border: solid rgb(222, 73, 155);
+    height: 16vh;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)> div:nth-child(1)  
+{
+    border: solid rgb(222, 73, 155);
+    height: 14vh;
+    margin: 1%;
+    width:30% ;
+    
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)> div:nth-child(2)  
+{
+    border: solid rgb(222, 73, 155);
+    height: 14vh;
+    margin: 1%;
+    width: 30%;
+}
+.conteneur > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)> div:nth-child(3)  
+{
+    border: solid rgb(222, 73, 155);
+    height: 14vh;
+    margin: 1%;
+    width: 30%;
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  {
+    border: solid rgb(62, 3, 60);
+    height: 17vh;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(1) {
+    border: solid rgb(62, 3, 60);
+    height: 15vh;
+    margin: 1%;
+    width: 25%;
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(2) {
+    
+    height: 15vh;
+    margin: 1%;
+    width: 75%;
+    
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(1) {
+    border: solid rgb(62, 3, 60);
+    height: 7vh;
+    margin: 1%;
+    width: 96%;
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(2) {
+    
+    height: 6vh;
+    margin: 1%;
+    display: flex;
+    
+    
+
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(2)  > div:nth-child(1) {
+    border: solid rgb(62, 3, 60);
+    height: 6vh;
+    margin: 1%;
+    width: 50%;
+    
+}
+.conteneur > div:nth-child(2) > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(2)  > div:nth-child(2) {
+    border: solid rgb(62, 3, 60);
+    height: 6vh;
+    margin: 1%;
+    width: 50%;
+    
+}
+.conteneur > div:nth-child(3) {
+    border: solid rgb(10, 15, 78);
+    height: 10vh;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteneur > div:nth-child(3)  > div:nth-child(1) {
+    border: solid rgb(126, 122, 122);
+    height: 8vh;
+    margin: 1%;
+    width: 30%;
+}
+.conteneur > div:nth-child(3)  > div:nth-child(2) {
+    border: solid rgb(126, 122, 122);
+    height: 8vh;
+    margin: 1%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteneur > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(1){
+    border: solid rgb(126, 122, 122);
+    height: 6.7vh;
+    width: 4.5rem;
+    margin: 1%;
+}
+.conteneur > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(2){
+    border: solid rgb(126, 122, 122);
+    height: 6.7vh;
+    width: 4.5rem;
+    margin: 1%;
+}
+.conteneur > div:nth-child(3)  > div:nth-child(2)  > div:nth-child(3)
+{
+    border: solid rgb(126, 122, 122);
+    height: 6.7vh;
+    width: 4.5rem;
+    margin: 1%;
+}

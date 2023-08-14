@@ -1,0 +1,334 @@
+
+:root
+{
+--color1: rgb(246, 31, 31);
+--color2: grey;
+}
+.contain
+{
+  font-family: "Poppins";
+  display: grid; 
+}
+.entete
+{
+     display: flex;
+    justify-content: space-between; 
+    block-size: 7rem;
+    padding: 0 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--color3);   
+}
+.home1
+{
+    color: var(--color1);
+}
+.logo
+{
+    background-image:  url(Logo.png);
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    width: 10rem;
+    padding: 1rem;  
+    left: 2rem;
+}
+.nav
+{
+    display: flex;
+    gap: 8rem;
+    position: relative;
+    top: 2rem;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;  
+}
+.burger
+{
+    display: grid;
+    block-size:3rem;
+    width: 6rem;
+    justify-content: center
+}
+
+
+.dom_burger
+{
+  border-radius: 1rem;
+  width: 3rem;
+  block-size: 0.3rem;
+  background-color: var(--color2);
+  gap: 0.5rem;
+  display: none;
+}
+.section_baniere
+{
+    position: relative;
+}
+.text_milieu
+{
+    position: absolute;
+    top: 5.5rem;
+    text-align: center;
+    color: var(--color3);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+   
+}
+ 
+.baniere
+{
+    background:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(banner.png)no-repeat;
+    block-size: 50rem;
+    background-size: 100%;
+    text-align: center;    
+    color: var(--color3); 
+}
+.ptit_titre
+{
+    font-size: 1.5rem; 
+}
+.second_third_phrase
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.fourth_phrase
+{
+    font-size: 2rem;
+}
+.boutons
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+   
+}
+.bouton_1
+{
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    block-size: 4rem;
+    width:13rem;
+    background-color:var(--color1);
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bouton_2
+{
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    block-size: 3.5rem;
+    width:13rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.telephone
+{
+    position: relative;
+    block-size: 50rem;
+    width: 40rem;
+}
+
+.logo_tel
+{
+    background: url(deux_tels.png) no-repeat;
+    background-size:cover;
+    block-size: 100%;
+    width: 100%;
+    position: absolute;
+    top: -25rem;
+    left: 82%;
+}
+.trait
+{
+ position: relative;
+}
+.trait_bou_yam
+{
+   background-color: rgb(228, 225,225);
+    width: 60rem;
+    top: -20rem;
+    left: 25%;
+    position: absolute;
+    block-size: 0.1rem;
+}
+.titre_apres_trait
+{
+    position: relative;
+} 
+.titre
+{
+   
+    top: -17rem;
+    left: 43%;
+    position: absolute;
+    font-size: 1.5rem;
+}
+.partie_2
+{
+    display: flex;
+    justify-content: space-between;
+    block-size: 60rem;
+    width: 100%;
+    position: relative;
+    top: -15rem;
+}
+.cellphone
+{
+    background: url(call1.png) no-repeat;
+    background-size:45rem;
+    block-size: 100%;
+    width: 70rem;
+    position: absolute;
+    top: -5rem;
+    left: 20rem;
+  
+}
+.texte_bi_nek_gauche
+{
+    position: relative;
+    left: 70rem;
+    top: 20rem;
+}
+
+.phrase_num_1
+{
+    font-size: 1.3rem;
+    color: var(--color1);
+}
+.phrase_num_2
+{
+    font-size: 2rem;
+    font-family: "Poppins";
+}
+.phrase_num_3
+{
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    color: var(--color2);
+}
+.partie_3
+{
+   
+    block-size: 20rem;
+    width: 100%;
+    position: relative;
+    top: -15rem;
+}
+ .text_droite
+{ 
+    
+    width: 30rem;
+    position: absolute;
+    top: -5rem;
+    left: 30rem;
+   
+}
+.title_part3
+{
+    font-size: 1.3rem;
+    color: var(--color1);
+    left: 70rem;
+}
+.phrase_2
+{
+    font-size: 2rem;
+}
+.phrase_3
+{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    color: var(--color2);
+}
+.telephone_droite
+{
+    background-image: url(call2.png);
+    background-repeat: no-repeat;
+    background-size:40rem;
+    block-size: 50rem;
+    width: 30rem;
+    position:relative;
+    bottom: 25rem;
+    left: 60rem;
+}
+.footer
+{
+    display: flex;
+    width: 100.5rem;
+    block-size: 10rem;
+   
+}
+.logo1_fin
+{
+    background: url(Logo.png) no-repeat;
+    background-size: 12rem;
+    block-size: 15rem;
+    width: 20%;
+    margin-left: 10rem;
+
+}
+.medias
+{
+    width: 20rem;
+    block-size: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.56rem;
+    gap: 1rem;
+    margin-left: 15rem;
+}
+.image
+{ 
+    background-repeat: no-repeat;
+    background-size:3rem ;
+    block-size: 35%;
+    width: 20%;
+}
+.Copywright
+{
+    color:var(--color2);
+    text-align: center;
+    block-size: 3rem;
+    width: 30rem;
+    margin-top: 4rem;
+    margin-left: 13rem;
+}
+
+/* @media screen and (max-width: 768px){
+    .entete{
+    
+    }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
